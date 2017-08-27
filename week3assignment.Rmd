@@ -1,0 +1,33 @@
+---
+title: "R Markdown and Plotly"
+author: "ZCao"
+date: "August 1, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+This is week 3 assignment for class of Developing Data Products. The goal is to Create a web page presentation using R Markdown with a plot of mpg and wt created with Plotly. The webpage was hosted on RPubs Plotly.
+
+## Data outline
+```{r, echo=TRUE}
+str(mtcars)
+```
+## code for plot
+```{r, echo = TRUE, eval=FALSE, message=FALSE}
+library(plotly)
+plot_ly(data = mtcars, x = ~mpg, y= ~wt, color = ~factor(cyl), colors= "Set2",  text=rownames(mtcars))
+```
+## Plot
+```{r, echo = FALSE, eval=TRUE, message=FALSE}
+library(plotly)
+plot_ly(data=mtcars, x=~mpg, y=~wt, 
+        color=~factor(cyl), colors="Set2",  text=rownames(mtcars))
+```
+
+
+## Thank You for Your Review!
