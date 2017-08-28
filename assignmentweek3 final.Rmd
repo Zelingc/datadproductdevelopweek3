@@ -9,14 +9,6 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Overview
-
-This is week 3 assignment for class of Developing Data Products. The goal is to Create a web page presentation using R Markdown with a plot of mpg and wt created with Plotly. The webpage was hosted on RPubs Plotly.
-
-## Data outline
-```{r, echo=TRUE, eval=FALSE}
-str(mtcars)
-```
 ## Plot
 ```{r, echo = FALSE, eval=TRUE, message=FALSE}
 library(plotly)
