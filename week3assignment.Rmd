@@ -23,7 +23,7 @@ library(plotly)
 plot_ly(data = mtcars, x = ~mpg, y= ~wt, color = ~factor(cyl), colors= "Set2",  text=rownames(mtcars))
 ```
 ## Plot
-```{r, echo = FALSE, eval=TRUE, message=FALSE}
+```{r, echo = TRUE, eval=TRUE, message=FALSE}
 library(plotly)
 plot_ly(data=mtcars, x=~mpg, y=~wt, 
         color=~factor(cyl), colors="Set2",  text=rownames(mtcars))
