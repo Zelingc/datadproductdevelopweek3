@@ -9,10 +9,5 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Plot
-```{r, echo = FALSE, eval=TRUE, message=FALSE}
-library(plotly)
-plot_ly(data=mtcars, x=~mpg, y=~wt, 
-        color=~factor(cyl), colors="Set2",  text=rownames(mtcars))
-```
+## Thank You for Your Review!
 
