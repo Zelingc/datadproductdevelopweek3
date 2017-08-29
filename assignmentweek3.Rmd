@@ -1,0 +1,24 @@
+---
+title: "Prediction Model for Excercise Manner"
+author: "ZCao"
+date: "July 11, 2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+### Overview
+The aim of this project is to build up a predictiom model for the quality of five excercise manners from six people. The data source is http://groupware.les.inf.puc-rio.br/har. R programming lauguage was applied for the statistical process. The report output is HTML style converted from RMD document via knitr package. 
+
+### 
+
+
+
+
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+

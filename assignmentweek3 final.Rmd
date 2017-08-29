@@ -2,7 +2,9 @@
 title: "R Markdown and Plotly"
 author: "ZCao"
 date: "August 1, 2017"
-output: ioslides_presentation
+output:
+  ioslides_presentation: default
+  beamer_presentation: default
 ---
 
 ```{r setup, include=FALSE}
